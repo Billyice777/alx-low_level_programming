@@ -2,7 +2,7 @@
 /**
  * times_table - print tables
  *
- * Return: 0 (Always success)
+ * Return: 0.
  */
 void times_table(void)
 {
@@ -15,6 +15,7 @@ void times_table(void)
 		for (b = 0; b <= 9; b++)
 		{
 			c = a * b;
+
 			if ((c / 10) == 0)
 			{
 				if (b == 0)
@@ -34,7 +35,7 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar((9 / 10) + '0');
+				_putchar((c / 10) + '0');
 				_putchar((c % 10) + '0');
 				if (b < 9)
 				{
