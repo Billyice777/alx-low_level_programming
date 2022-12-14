@@ -6,7 +6,7 @@
  * @n: The value of th tie table to printed
  */
 
-void print_table(int n)
+void print_times_table(int n)
 {
 
 	int num, mult, prod;
