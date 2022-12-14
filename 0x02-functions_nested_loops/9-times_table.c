@@ -22,7 +22,7 @@ void times_table(void)
 				}
 				if (b != 0)
 				{
-					_putcahr(' ');
+					_putchar(' ');
 					_putchar((c % 10) + '0');
 				}
 				if (b < a)
@@ -32,5 +32,5 @@ void times_table(void)
 				}
 			}
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}}
