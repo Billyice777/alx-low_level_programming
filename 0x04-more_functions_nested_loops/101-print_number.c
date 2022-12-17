@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_number - prints an integer
- * @n: The integer to prints
- * Return: Nothing!
- */
+* print_number - print an integer
+* @n: The integer to print
+* Return: Nothing!
+*/
 
 void print_number(int n)
 {
@@ -15,7 +15,7 @@ void print_number(int n)
 	{
 		n *= -1;
 		k = n;
-		_putchar('_');
+		_putchar('-');
 	}
 	k /= 10;
 	if (k != 0)
